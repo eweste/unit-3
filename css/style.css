@@ -21,7 +21,7 @@
 
 .regions {
     fill: #8a8a8a;
-    stroke: #000
+    
 }
 
 .gratBackground {
@@ -39,11 +39,13 @@
 .map {
     border: medium solid #999;
     margin: 10px 0 0 20px;
+    
+    
 }
 
-.specific_countries {
+.ADMIN {
     stroke: #000;
-    stroke-width: 1px;
+    stroke-width: 2px;
     stroke-linecap: round;
 }
 
@@ -54,14 +56,86 @@
     margin: 10px 20px 0 0;
 }
 
-.numbers {
-    fill: #000;
-    font-family: sans-serif;
-    font-size: 10px;
-}
+
 
 .chartTitle {
     font-family: sans-serif;
     font-size: 1.5em;
     font-weight: bold;
+}
+
+.dropdown {
+    position: relative;
+    top: 30px;
+    left: 40px;
+    z-index: 10;
+    font-family: sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 2px;
+    border: 1px solid #999;
+    box-shadow: 2px 2px 4px #999;
+    background-color: #424242;
+    color: #999;
+}
+
+option {
+    font-weight: normal;
+}
+
+.chartBackground {
+    fill: rgba(128,128,128,.2);
+}
+
+.chartFrame {
+    fill: none;
+    stroke: #999;
+    stroke-width: 3px;
+    shape-rendering: crispEdges;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #999;
+    stroke-width: 1px;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-family: sans-serif;
+    font-size: 0.8em;
+    fill: #999;
+}
+
+.infolabel {    margin: 0 20px 0 0;    position: absolute;
+    height: 50px;
+    min-width: 100px;
+    color: #424242;
+    background-color: #9dafa2;
+    border: solid thin #3f3f3f;
+    padding: 5px 10px;
+    top: -75px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.infolabel h1 {
+    margin: 0 20px 0 0;
+    padding: 0;
+    display: inline-block;
+    line-height: 1em;
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 6px;
+}
+
+body {
+    background-color: #6b6b6b;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 20px;
 }
